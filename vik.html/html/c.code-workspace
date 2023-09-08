@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../c"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../vik.cpp"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "vik.html"
+	}
+}
