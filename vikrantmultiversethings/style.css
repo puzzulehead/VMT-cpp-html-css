@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color : white;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    height: 145px;
+    width: 100%;
+    
+    display : flex;/*iske pehle sare element vertically ek ke niche ek the in default conidtion ....iske baad sab horrizontally allign ho gaye*/
+    gap: 70px;
+    padding: 0 120px;/*0 is for padding from top and 150px is the padding from right*/
+    justify-content: flex-start;
+    align-items: center;
+    position: fixed;
+    z-index: 99;
+    
+}
+#nav img{
+    height: 75px;
+}
+#nav h4{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+video{
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+    position: fixed;
+}
+#main{  
+    background-color: rgba(0, 0, 0, 0.125);
+    position : relative;
+}
+#page1{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    position:relative;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align:center
+
+    
+}
+#page1 h1{
+    font-size: 140px;
+    font-weight: 900;
+}
+#page1 h2{
+    font-size: 32px;
+    font-weight:900 ;
+}
+#page1 p{
+    font-size : 22px;
+    width: 40%;
+    align-items: center;
+    
+
+}
